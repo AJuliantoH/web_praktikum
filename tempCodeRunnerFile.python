@@ -1,0 +1,26 @@
+# nilai= (int(input ("masukan nilai anda")))
+# kehadiran= (int(input ("masukan kehadiran anda")))
+
+# if nilai > 100 and kehadiran >11 :
+#     print("nilai kamu A")
+# elif nilai > 81 and kehadiran >9 :
+#     print("nilai kamu B")
+# elif nilai >61 and kehadiran >7 :
+#     print("nilai kamu C")
+    
+    
+    
+      
+    
+    
+def upah_karyawan(jam_kerja):
+    gajiPokok = 50000
+    total= int
+    if jam_kerja >= 40:
+        total= jam_kerja*gajiPokok
+    else:
+        print(50000*1,5*40)
+        
+    return total
+
+print("upah kerja Rp:", upah_karyawan(int(input("masukan jam kerja: "))))
